@@ -3,7 +3,7 @@ const username = "davidesamp"; // ← replace with your GitHub username
 
 const statsMarkdown = `
 <!--STATS-->
-![davidesamp's GitHub Stats](https://github-readme-stats.vercel.app/api?username=${username}&show_icons=true&count_private=true&theme=outrun)
+![davidesamp's GitHub Stats](https://davide-github-readme-stats.vercel.app/api?username=${username}&show_icons=true&count_private=true&theme=outrun)
 <!--/STATS-->
 `;
 
