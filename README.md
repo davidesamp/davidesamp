@@ -9,6 +9,5 @@
 
 Let’s build something cool — or at least weird enough to make us smile.
 
-<!--STATS-->
 ![davidesamp's GitHub Stats](https://davide-github-readme-stats.vercel.app/api?username=davidesamp&show_icons=true&count_private=true&theme=outrun)
-<!--/STATS-->
+
