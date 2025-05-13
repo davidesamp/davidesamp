@@ -2,7 +2,7 @@ name: Update README
 
 on:
   schedule:
-    - cron: '0 0 * * *'  # Daily
+    - cron: '0 0 * * *'  # Every day
   workflow_dispatch:
 
 jobs:
@@ -10,20 +10,23 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v3
+      - name: Checkout repository
+        uses: actions/checkout@v3
+        with:
+          token: ${{ secrets.GH_PAT }}
 
       - name: Set up Node
         uses: actions/setup-node@v3
         with:
           node-version: 18
 
-      - name: Run custom README update script
+      - name: Run update script
         run: node ./scripts/update-readme.js
 
       - name: Commit and push changes
         run: |
-          git config --global user.name 'github-actions[bot]'
-          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git config --global user.name 'Davide'
+          git config --global user.email 'davide.gaggero@gmail.com'
           git add README.md
-          git commit -m "chore: update README with latest stats"
+          git commit -m "chore: update README with latest stats" || echo "No changes to commit"
           git push
