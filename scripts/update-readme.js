@@ -1,9 +1,9 @@
 const fs = require("fs");
-const username = "yourusername"; // ← replace with your GitHub username
+const username = "davidesamp"; // ← replace with your GitHub username
 
 const statsMarkdown = `
 <!--STATS-->
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=${username}&show_icons=true&count_private=true)
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=${username}&show_icons=true&count_private=true&theme=outrun)
 <!--/STATS-->
 `;
 
