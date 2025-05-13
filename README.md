@@ -13,5 +13,5 @@ Let’s build something cool — or at least weird enough to make us smile.
 
 
 <!--STATS-->
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=yourusername&show_icons=true&count_private=true)
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=davidesamp&show_icons=true&count_private=true&theme=outrun)
 <!--/STATS-->
