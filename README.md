@@ -1,6 +1,7 @@
 ## Hi there 👋
 
-[![Davidesamp's GitHub stats](https://github-readme-stats.vercel.app/api?username=davidesamp&show_icons=true&theme=radical)](https://github.com/davidesamp/github-readme-stats)
+[![davidesamp's GitHub stats](https://github-readme-stats.vercel.app/api?username=davidesamp&show_icons=true&theme=radical)](https://github.com/davidesamp/github-readme-stats)
+![davidesamp's Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=davidesamp&theme=outrun&show_icons=true&hide_border=false&layout=compact)
 <!--
 **davidesamp/davidesamp** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
